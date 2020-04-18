@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+
+<head>
+  <!-- Site Title-->
+  <title>Clarice</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=Fira+Sans:300,600,800,800i%7COpen+Sans:300,400,400i">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+  <style>
+    .ie-panel {
+      display: none;
+      background: #212121;
+      padding: 10px 0;
+      box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, .3);
+      clear: both;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    html.ie-10 .ie-panel,
+    html.lt-ie-10 .ie-panel {
+      display: block;
+    }
+  </style>
+</head>
+
+
+<body>
+  <div width="100wh" overflow="hidden">
+    <div class="preloader">
+      <div class="cssload-container">
+        <div class="dots">
+          <div class="dot mainDot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        <p>Loading...</p>
+      </div>
+    </div>
+    <div class="rd-navbar-wrap">
+      <nav class="rd-navbar rd-navbar_transparent rd-navbar_boxed" data-layout="rd-navbar-fixed"
+        data-sm-layout="rd-navbar-fixed" data-sm-device-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed"
+        data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed"
+        data-lg-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static"
+        data-xxl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-stick-up-clone="false"
+        data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true" data-md-stick-up-offset="115px"
+        data-lg-stick-up-offset="35px" data-body-class="rd-navbar-absolute">
+        <!-- navbar -->
+        <div class="rd-navbar-top-panel">
+          <div class="rd-navbar-top-panel__main">
+            <div class="rd-navbar-top-panel__content">
+              <div class="rd-navbar-top-panel__left">
+                <ul class="rd-navbar-items-list">
+                  <li>
+                    <div class="unit flex-row align-items-center unit-spacing-xs">
+                      <div class="unit__body">
+                        <ul class="list-semicolon">
+                          <p><a href="#">Endereço: R. Rodrigues Alves, 26 - Centro, Arujá</a></p>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="unit flex-row align-items-center unit-spacing-xs">
+                      <div class="unit__body">
+                        <ul class="list-semicolon">
+                          <li><a href="tel:#">(800) 123-0045</a></li>
+                          <li><a href="tel:#">(800) 123-0045</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rd-navbar-inner rd-navbar-search-wrap">
+          <!--Navbar Mobile-->
+          <div class="rd-navbar-panel rd-navbar-search-lg_collapsable">
+            <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+            <!--Navbar Logo-->
+            <div class="rd-navbar-brand"><a class="brand-name" href="index.html"><img src="logo.png" alt=""
+                  width="70" height="100" /></a></div>
+          </div>
+          <div class="rd-navbar-nav-wrap rd-navbar-search_not-collapsable">
+            <div class="rd-navbar-search_collapsable">
+              <ul class="rd-navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    </header>
+    <!-- Efeito Swipe -->
+    <svg class="defs">
+      <defs>
+        <lineargradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+          <stop offset="50%" stop-color="#AA54ED">
+            <animate attributename="stop-color" values="#AA54ED; #5348E2; #AA54ED" dur="5s" repeatcount="indefinite">
+            </animate>
+          </stop>
+          <stop offset="100%" stop-color="#5348E2">
+            <animate attributename="stop-color" values="#5348E2; #AA54ED; #5348E2" dur="5s" repeatcount="indefinite">
+            </animate>
+          </stop>
+        </lineargradient>
+      </defs>
+    </svg>
+
+    <!-- Cont efeito 2 -->
+    <div class="swiper-container swiper-slider" data-effect="frame-trapeze" data-loop="true" data-autoplay="5500"
+      data-speed="1200" data-mousewheel="false" data-keyboard="true" data-frame-fill="url(#gradient1)">
+
+      <div class="swiper-wrapper">
+        <!-- PRIMEIRO SLIDE -->
+        <div class="swiper-slide">
+          <div class="swiper-slide-img" style="background-image: url(macarons.jpg);"
+            data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }">
+          </div>
+          <div class="swiper-slide-caption text-center context-dark">
+            <h1
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">
+              Clarice</h1>
+            <h3
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">
+              O melhor para sua festa</h3>
+            <div class="group-lg group-middle"
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">
+              <a class="button button-primary button-shadow" href="produtos.html"
+                data-custom-scroll-to="features">Bolos</a><a class="button button-black button-shadow"
+                href="produtos.html">Salgados</a></div>
+          </div>
+        </div>
+
+        <!-- SEGUNDO SLIDE -->
+        <div class="swiper-slide">
+          <div class="swiper-slide-img" style="background-image: url(cakepops.jpg);"
+            data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }">
+          </div>
+          <div class="swiper-slide-caption context-dark">
+            <h2
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">
+              Clarice<br class="d-none d-lg-block"> Sua vida mais doce</h2><a
+              class="button button-primary button-shadow" href="contato.html"
+              data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">Contato</a>
+          </div>
+        </div>
+
+        <!-- TERCEIRO SLIDE -->
+        <div class="swiper-slide">
+          <div class="swiper-slide-img" style="background-image: url(cupcakes.jpg);"
+            data-swiper-anime="{ &quot;animation&quot;: &quot;swiperSlideRotate&quot;, &quot;duration&quot;: 2000, &quot;delay&quot;: 600 }">
+          </div>
+          <div class="swiper-slide-caption context-dark">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-7">
+                  <h2
+                    data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 500 }">
+                    Lançamentos</h2>
+                  <h5 class="text-width-2 block-centered"
+                    data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 600 }">
+                    Estamos sempre inovando para te mante satisfeito</h5>
+                  <div class="group-lg group-middle"
+                    data-swiper-anime="{ &quot;animation&quot;: &quot;swiperContentStack&quot;, &quot;duration&quot;: 1000, &quot;delay&quot;: 700 }">
+                    <a class="button button-black button-shadow" href="#features"
+                      data-custom-scroll-to="features">Bolos</a><a class="button button-primary button-shadow"
+                      href="#">Salgados</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- botões-->
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev linear-icon-chevron-left"></div>
+      <div class="swiper-button-next linear-icon-chevron-right"></div>
+    </div>
+
+    <!-- sobre nós -->
+    <section class="bg-gray-lighter object-wrap">
+      <div class="bg-decor d-flex align-items-center justify-content-start"
+        data-parallax-scroll="{&quot;y&quot;: 50,  &quot;smoothness&quot;: 30}"><img src="bg-decor-4.png"
+          alt="" />
+      </div>
+      <div class="section-lg">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5">
+              <h4 class="heading-decorated">Sobre nós</h4>
+              <p>Ao iniciar a confecção de bolos e salgadinhos de forma caseira, Dona Clarice, mãe de três filhos, tinha
+                acabado de completar 50 anos de idade e queria fazer algo novo em sua vida. A paixão pela cozinha, já
+                conhecida por seus familiares e amigos, foi o impulso para começar as encomendas de bolos e salgados. No
+                início, Dona Clarice utilizava os produtos da própria dispensa da casa. Ao aliar o amor pela culinária e
+                matéria-prima da melhor qualidade, o resultado foi um sucesso! Em pouco tempo Dona Clarice convidou sua
+                afilhada Luciana, atual líder de Produção, para ajudá-la a atender as crescentes encomendas.</p>
+              <div class="row row-30">
+                <div class="col-xl-6">
+                  <article class="blurb blurb-minimal">
+                    <div class="unit flex-row unit-spacing-md">
+                      <div class="unit-body">
+                        <p class="blurb__title heading-6"><a href="#">Feedbacks</a></p>
+                        <p>Sempre escutamos o que nossos clientes tem a dizer, desta forma aprendemos com experiências
+                          anteriores.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+                <div class="col-xl-6">
+                  <article class="blurb blurb-minimal">
+                    <div class="unit flex-row unit-spacing-md">
+                      <div class="unit-body">
+                        <p class="blurb__title heading-6"><a href="#">Profissionais</a></p>
+                        <p>Nosso time é composto pelos melhores confeiteiros da cidade, assim entregamos sempre o
+                          melhor.</p>
+                      </div>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="col-md-12">
+                  <div class="progress-linear progress-linear-modern">
+                    <div class="progress-header">
+                      <p>Dedicação</p><span class="progress-value">100</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </div>
+                  <div class="progress-linear progress-linear-modern">
+                    <div class="progress-header">
+                      <p>Experiencia</p><span class="progress-value">100</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </div>
+                  <div class="progress-linear progress-linear-modern">
+                    <div class="progress-header">
+                      <p>Criatividade</p><span class="progress-value">100</span>
+                    </div>
+                    <div class="progress-bar-linear-wrap">
+                      <div class="progress-bar-linear"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="object-wrap__body object-wrap__body-sizing-1 object-wrap__body-md-right bg-image"
+        style="background-image: url(table.jpg)"></div>
+    </section>
+
+
+
+    <section class="section-md bg-gray-lighter text-center decor-text" data-content="Process">
+      <div class="container">
+        <h4 class="heading-decorated">Nosso processo de trabalho</h4>
+        <div class="row row-30 justify-content-center">
+          <div class="col-sm-10 col-lg-6"><img src="cupcakemao.jpg" alt="" width="650" height="495" />
+          </div>
+          <div class="col-sm-10 col-lg-6">
+            <!-- Blurb circle-->
+            <article class="blurb blurb-circle">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-circle__icon"><span class="icon linear-icon-feather"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p class="blurb__title heading-6">Imaginação</p>
+                  <p>É a maior parte do nosso trabalho.</p>
+                </div>
+              </div>
+            </article>
+            <!-- Blurb circle-->
+            <article class="blurb blurb-circle">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-circle__icon"><span class="icon linear-icon-menu3"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p class="blurb__title heading-6">Cozinhar</p>
+                  <p>É a a fase em que nossa equipe mais trabalha, todos juntos para a realização de um trabalho
+                    incrível.</p>
+                </div>
+              </div>
+            </article>
+            <!-- Blurb circle-->
+            <article class="blurb blurb-circle">
+              <div class="unit flex-row unit-spacing-md">
+                <div class="unit-left">
+                  <div class="blurb-circle__icon"><span class="icon linear-icon-bag2"></span></div>
+                </div>
+                <div class="unit-body">
+                  <p class="blurb__title heading-6">Vender</p>
+                  <p> É onde entregamos todo nosso trabalho ao clien5te, com todo o amor e carinho.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--cta-->
+    <!-- Botão de Contato-->
+    <section class="section-md bg-accent bg-image text-center bg-overlay-darker"
+      style="background-image: url(hands.jpg); background-position: center 50%;">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-md-11 col-lg-9 col-xl-8">
+            <h3 class="heading-decorated">Não achou o que gostaria? Sinta-se livre para entrar em contato</h3><a
+              class="button button-primary" href="contato.html">Fale conosco</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials-->
+    <section class="section-md bg-default text-center decor-text" data-content="Testimonials">
+      <div class="container">
+        <h4 class="heading-decorated">O que as pessoas dizem?</h4>
+        <div class="row row-50">
+          <div class="col-md-6">
+            <!-- Quote default-->
+            <div class="quote-default quote-default_left">
+              <div class="quote-default__image"><img src="mulher.jpg" alt="" width="120" height="120" />
+              </div>
+              <svg class="quote-default__mark" version="1.1" baseprofile="tiny" x="0px" y="0px" width="40.234px"
+                height="33.484px" viewbox="0 0 30.234 23.484" xml:space="preserve">
+                <g>
+                  <path
+                    d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959							c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246							c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885							c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426							C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723							c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984							c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.52,0.545,3.551,1.635							s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426							s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508C21.773,3.539,24.844,1.524,29.039,0z">
+                  </path>
+                </g>
+              </svg>
+              <div class="quote-default__text">
+                <p class="q"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+                  here', making it look like readable English.  </p>
+              </div>
+              <p class="quote-default__cite">Jaqueline Santos</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <!-- Quote default -->
+            <div class="quote-default quote-default_left">
+              <div class="quote-default__image"><img src="homem.jpg" alt="" width="120" height="120" />
+              </div>
+              <svg class="quote-default__mark" version="1.1" baseprofile="tiny" x="0px" y="0px" width="40.234px"
+                height="33.484px" viewbox="0 0 30.234 23.484" xml:space="preserve">
+                <g>
+                  <path
+                    d="M12.129,0v1.723c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959							c0,0.445,0.07,0.773,0.211,0.984c0.093,0.141,0.199,0.211,0.316,0.211c0.117,0,0.293-0.082,0.527-0.246							c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.519,0.545,3.551,1.635c1.031,1.09,1.547,2.385,1.547,3.885							c0,1.57-0.592,2.953-1.775,4.148c-1.184,1.195-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426							C0.715,19.441,0,17.274,0,14.555c0-3.164,0.972-6,2.918-8.508C4.863,3.539,7.933,1.524,12.129,0z M29.039,0v1.723							c-2.438,0.891-4.348,2.291-5.73,4.201c-1.383,1.911-2.074,3.897-2.074,5.959c0,0.445,0.07,0.773,0.211,0.984							c0.094,0.141,0.199,0.211,0.316,0.211s0.293-0.082,0.527-0.246c0.75-0.539,1.699-0.809,2.848-0.809c1.336,0,2.52,0.545,3.551,1.635							s1.547,2.385,1.547,3.885c0,1.57-0.592,2.953-1.775,4.148s-2.619,1.793-4.307,1.793c-1.969,0-3.668-0.809-5.098-2.426							s-2.145-3.785-2.145-6.504c0-3.164,0.973-6,2.918-8.508C21.773,3.539,24.844,1.524,29.039,0z">
+                  </path>
+                </g>
+              </svg>
+              <div class="quote-default__text">
+                <p class="q">  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                  The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content 
+                  here', making it look like readable English. </p>
+              </div>
+              <p class="quote-default__cite">Carlos Antônio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pre-footer-corporate bg-image-7 bg-overlay-darkest">
+      <div class="container">
+        <div class="row justify-content-sm-center justify-content-lg-start row-30 row-md-60">
+          <div class="col-sm-10 col-md-6 col-lg-10 col-xl-3">
+            <h6>Sobre</h6>
+            <p>Conta com uma equipe capacitada de 30 colaboradores entre o setor produtivo e atendimento ao público em
+              um amplo prédio situado na Rua Rodrigues Alves, n° 26, no centro da cidade, com capacidade para atender 70
+              clientes confortavelmente instalados e com adequada acessibilidade.</p>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-3 col-xl-3">
+            <h6>Navegação</h6>
+            <ul class="list-xxs">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="produtos.html">Bolos</a></li>
+              <li><a href="produtos.html">Salgados</a></li>
+              <li><a href="produtos.html">Doces</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-4 col-xl-3">
+            <h6>Contacts</h6>
+            <ul class="list-xs">
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Endereço</dt>
+                  <dd>R. Rodrigues Alves, 26 - Centro, Arujá</dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Telefones</dt>
+                  <dd>
+                    <ul class="list-semicolon">
+                      <li><a>(800) 123-0045</a></li>
+                      <li><a>(800) 123-0045</a></li>
+                    </ul>
+                  </dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>E-mail</dt>
+                  <dd><a href="#">doceriaclarice@doceriaclarice.com.br</a></dd>
+                </dl>
+              </li>
+              <li>
+                <dl class="list-terms-minimal">
+                  <dt>Funcionamento:</dt>
+                  <dd>Horário: 8am - 10pm</dd>
+                </dl>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-corporate bg-gray-darkest">
+      <div class="container">
+        <div class="footer-corporate__inner">
+          <p class="rights"><span>Website CLARICE</span><span>&nbsp;</span><span class="copyright-year"></span>. Todos
+            os direitos reservados. Design by Ketryn</p>
+          <ul class="list-inline-xxs">
+            <li><a class="icon icon-xxs icon-primary fa fa-facebook" href="#"></a></li>
+            <li><a class="icon icon-xxs icon-primary fa fa-twitter" href="#"></a></li>
+            <li><a class="icon icon-xxs icon-primary fa fa-google-plus" href="#"></a></li>
+            <li><a class="icon icon-xxs icon-primary fa fa-vimeo" href="#"></a></li>
+            <li><a class="icon icon-xxs icon-primary fa fa-youtube" href="#"></a></li>
+            <li><a class="icon icon-xxs icon-primary fa fa-pinterest" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Javascript-->
+  <script src="core.min.js"></script>
+  <script src="script.js"></script>
+
+  </div>
+</body>
+
+</html>
